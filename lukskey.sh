@@ -68,7 +68,7 @@ function criarChaveHook(){
 				read nomeArquivo
 				[[ -z $nomeArquivo ]] && nomeArquivo="compras"
 				echo "Criando a chave..."
-				touch $pathChave/$nomearquivo
+				touch $pathChave/$nomeArquivo
 				fullPath=$pathChave/$nomeArquivo
 				dd bs=512 count=4 if=/dev/random of=$fullPath iflag=fullblock
 				echo "Alterando as permissões da chave..."
