@@ -1,3 +1,20 @@
+# Scripts to manage luks containers
+
+## Dependencies:
+* cryptsetup, bc, fdisk, parted, lsblk
+
+## Known limitations:
+* Doesn't validate answers
+* Hardcoded for ext4
+
+## TODO:
+* Validate answers
+* Use GPG keys to decrypt and hide those gpg in files using steghide
+* Clean code
+* Reduce depedencies
+
+---
+
 # Scripts para gerenciar containers com luks
 
 ## Dependências:
@@ -6,7 +23,6 @@
 ## Limitações:
 * Não tem validação de respostas
 * Está hardcoded para containers em ext4
-* Você me fala outras
 
 ## TODO:
 * Validação de respostas
