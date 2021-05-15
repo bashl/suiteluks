@@ -9,7 +9,7 @@
 
 ## TODO:
 * Validate answers
-* Use GPG keys to decrypt and hide those gpg in files using steghide
+* Use PGP keys to decrypt and hide those gpg in files using steghide
 * Clean code
 * Reduce depedencies
 
@@ -26,6 +26,6 @@
 
 ## TODO:
 * Validação de respostas
-* Desencriptar com chaves GPG escondidas em arquivos usando steghide
+* Desencriptar com chaves PGP escondidas em arquivos usando steghide
 * Limpar o código
 * Reduzir as dependências
